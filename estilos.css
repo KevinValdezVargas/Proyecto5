@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*---------------Nav---------------*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+nav li {
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border: solid 1px white;
+    padding: 5px 5px;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+/*------HOME------*/
+.img-banner {
+    width: 100%; 
+    height: 5rem; 
+    object-fit: cover;
+   
+}
+
+.option {
+    color: white;
+}
+.img-procesador {
+    width: 15rem;
+}
+
+main {
+    text-align: center;
+    padding: 1rem 0 0 0;
+}
+
+.price {
+    padding: 0 0 1rem 0;
+    font-size: 0.5rem;
+}
+/*------Form------*/
+select {
+    width: 60%;
+    border-radius: 5px;
+    font-size: 0.7rem;
+}
+
+form {
+    line-height: 1.8rem;
+}
+
+.option {
+    font-size: 1rem;
+}
+
+fieldset {
+    background-color: whitesmoke;
+    width: 20rem;
+    margin: auto;
+}
+
+label {
+    font-size: 1rem;
+}
+
+
+.back-button {
+    width: 20%;
+    padding: 1rem;
+}
+/*------ASDÑLKJ------*/
+
+/*------------------ Footer ------------------*/
+
+
+footer {
+    background-color: #333;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.menufooter {
+    /*display: grid;*/
+    color: white;
+    grid-template-columns: auto auto;
+    display: inline-block;
+    
+}
+
+.menufooter p{
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+.lista-footer ul {
+    list-style-type: none;
+    font-weight: 100;
+    padding: 1.2rem;
+}
+
+/*---------------Responsive---------------*/
+@media screen and (min-width:50rem) {
+
+    /*----------Nav----------*/
+    nav ul {
+        font-size: 2rem;
+    }
+
+    nav li {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav li a {
+        text-decoration: none;
+        border: 0;
+        padding: 20px 20px;
+    }
+
+    /*----------BANNER----------*/
+    .img-banner {
+        height: 100%; 
+    }
+
+    /*----------HOME----------*/
+    .img-procesador {
+        width: 30%;
+        
+    }
+
+    .price {
+        padding: 0 0 8rem 0;
+        font-size: 1rem;
+    }
+    .option {
+        font-size: 2.5rem;
+    }
+
+    /*----------FOOTER----------*/
+    .menufooter {
+        display: flex;
+        border-style: solid none none none ;
+        border-width: 1px;
+        border-color: gray;
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+        padding: 3rem;
+    }
+    
+    .menufooter p{
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .lista-footer ul {
+        list-style-type: none;
+        font-weight: 200;
+        text-align: left;
+    }
+
+    .lista-footer{
+        margin: auto;
+    }
+
+    /*------Form------*/
+    select {
+        width: 60%;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        display: block;
+        margin: auto;
+    }
+
+    form {
+        line-height: 5.5rem;
+        
+    }
+
+    option {
+        font-size: 1rem;
+    }
+
+    fieldset {
+        background-color: whitesmoke;
+        width: 50rem;
+        margin: auto;
+        font-size: 2rem;
+        
+    }
+
+    label {
+        font-size: 2rem;
+    }
+
+    .back-button {
+        width: 6%;
+        padding: 1rem;
+    }
+
+    form input[type=text] {
+        font-size: 1rem;
+    }
+}   
